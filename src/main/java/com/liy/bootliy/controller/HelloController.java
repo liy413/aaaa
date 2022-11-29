@@ -39,7 +39,7 @@ public class HelloController {
     public User hello(){
         User user = helloService.getUserById(11);
 
-        System.out.println("hello=---"+user.toString());
+        System.out.println("hello1=---"+user.toString());
         return user;
     }
 
